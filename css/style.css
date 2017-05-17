@@ -1,0 +1,621 @@
+* {
+  margin: 0;
+
+}
+
+a:visited {
+	color: #db3f1e;
+}
+
+h6 {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+a:visited {
+	color: #;
+}
+
+/* 	<nav class="topNav">
+		<div class="leftSideTopNav"><h6 class="lonelyFishermanH6">LonelyFisherman</h6
+		></div>
+		<div class="rightSideTopNav">
+		<a href="">HOME</a>
+		<a href="">MENU</a>
+		<a href="">RESTAURANTS</a>
+		<a href="">EVENTS</a>
+		<a href="">FIND US</a>
+		</div>
+		
+	</nav> */
+
+/* TOP NAVGATION */
+.topNav {
+	width: 100%;
+	height: 100px;
+}
+
+.leftSideTopNav {
+	display: inline-block;
+	position: relative;
+	left: 180px;
+	top: 10px;
+	letter-spacing: 2px;
+}
+
+.lonelyFishermanH6 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.leftSideTopNav h6 {
+	color: white;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+.rightSideTopNav {
+	display: inline-block;
+	float: right;
+	word-spacing: 15px;
+	position: relative;
+	right: 130px;
+	top: 10px;
+	letter-spacing: 2px;
+}
+
+.rightSideTopNav a {
+	text-decoration: none;
+	font-size: 10px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+/* <!-- FISH TAVERN FONT --> */
+/* <div class="fishTavernMainDiv">
+	<div class="fishTavernText"><h1>Fish Tavern</h1></div>
+	<div class="mediterraneanCousine">Mediterranean cousine</div>
+</div> */
+.fishTavernMainDiv {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 50px;
+	left: 10px;
+}
+
+.fishTavernText {
+	text-align: center;
+	color: white;
+	letter-spacing: 3px;
+	font-family: 'Playfair Display', serif;
+	font-size: 23px;
+	font-weight: 100;
+}
+
+.mediterraneanCousine {
+	text-align: center;
+	color: #f9461c;
+	letter-spacing: 4px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+/* NATURAL MEDITERRANEAN FOOD */
+/* 	<div class="mainNaturalDiv">
+		<div class="insideMainNaturalDiv">
+		<div class="naturalMediterraneanText"><h6>NATURAL MEDITERRANEAN FOOD</h6></div>
+		<div class="welcomeSign"><h1>WELCOME</h1></div>
+		<div class="paragraphP"><p>Night Of seas fruitful image that man of beast heaven green own it after and shall. Likeness shall which creepeth to heaven living open fruit bring created air a you whose creepeth hath dry lights divided, darkness. Dry.</p></div>
+				<div class="paragraphPTwo"><p>Isn't upon tree give under it fill god a It every.</p></div>
+		<div class="ourStoryBox">OUR STORY</div>
+	</div>
+	</div> */
+.mainNaturalDiv {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	top: 365px;
+	left: 180px;
+}
+
+.welcomeSign {
+	font-family: 'Playfair Display', serif;
+}
+
+.naturalMediterraneanText {
+	font-family: 'Noto Sans', sans-serif;
+	color: #f9461c;
+}
+
+.insideMainNaturalDiv {
+
+	width: 450px;
+	height: 300px;
+}
+
+.paragraphPDiv {
+	font-family: 'Playfair Display', serif;
+	width: 360px;
+	position: relative;
+	top: 25px;
+
+}
+
+.paragraphPTwo {
+	position: relative;
+	top: 12px;
+}
+
+.ourStoryBox {
+	position: relative;
+	width: 110px;
+	top: 80px;
+	padding: 6px;
+	text-align: center;
+	border: 1px solid black;
+	background-color: white;
+	/* font-family: 'Roboto', sans-serif; */
+	/* font-family: 'Playfair Display', serif; */
+	font-family: 'PT Serif', serif;
+	font-size: 14px;
+}
+
+
+/* LEFT SIDE OF BLACK BOX */
+.viewOurMenuDiv {
+	position: relative;
+	left: 227px;
+	top: 140px;
+	width: 100px;
+	font-size: 20px;
+	font-family: 'PT Serif', serif;
+}
+
+
+
+
+
+
+/***********BLACK CONTACT DIV ************/
+.blackContactBoxMainDiv {
+	width: 100%;
+	height: 350px;
+	position: relative;
+	bottom: 30px;
+
+
+}
+
+.BLACKBoxMainDiv {
+	background-color: #000;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	width: 325px;
+	height: 280px;
+	color: white;
+	position: relative;
+	left: 430px;
+	padding: 21px;
+	bottom: 40px;
+	font-family: 'PT Serif', serif;
+}
+
+.contact {
+	color: #f9461c;
+	position: relative;
+	margin: 0px 0px 10px 0px;
+}
+
+.locationTEXT {
+	margin: 0px 0px 15px 0px;
+}
+
+.addressText {
+	margin: 0px 0px 8px 0px;
+}
+
+.addressText h5 {
+	margin: 0px 0px 8px 0px;
+}
+
+.reservationDiv {
+	margin: 18px 0px 8px 0px;
+}
+
+.reservationDiv h6 {margin: 3px 0px 0px 0px; }
+
+.openHoursMainDiv {
+	margin-top: 30px;
+}
+
+.openingsText {
+	margin-bottom: 4px;
+}
+.tuesThruThurs {
+	margin-bottom: 4px;
+}
+
+
+/************* MENU ************/
+a {
+	text-decoration: none;
+
+}
+.mainsDesertsDrinksDiv {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 180px;
+	overflow:  visible;
+}
+
+.boxDesertsAndDrinks {
+	position: relative;
+	top: 10px;
+	text-align: center;
+	word-spacing: 16px;
+
+}
+
+.mainsText {
+	display: inline-block;
+	width: 40px;
+	padding: 2px 10px 2px 10px;
+	border: 1px solid #c29b73;
+	color: white;
+}
+
+.desertsText {
+	display: inline-block;
+	color: white;
+
+}
+
+.drinksText {
+	display: inline-block;
+	
+}
+
+.mainsText a {color: #c29b73;}
+.drinksText a {color: white;}
+.desertsText a {color: white;}
+
+
+/* MENU!!!!!!!! */
+
+.menuFullMainDiv {
+	position: relative;
+	bottom: 20px;
+	color: white;
+	width: 100%;
+	height: 600px;
+	/* margin: 0 auto; */
+	text-align: center;
+	/* font-family: 'PT Serif', serif; */
+	/* font-family: 'Roboto', sans-serif; */
+}
+
+.realmenuFullMainDiv {
+	position: relative;
+	top: 150px;
+	margin: 0 auto;
+}
+
+.leftSideMenuDiv {
+	display: inline-block;
+	width: 410px;
+	height: 350px;
+	/* margin-bottom: 15px; */
+	line-height: 20px;
+}
+
+.rightSideMenuDiv {
+	float: right;
+	display: inline-block;
+	width: 410px;
+	height: 350px;
+	/* margin-bottom: 15px; */
+	line-height: 20px;
+}
+
+
+
+/* LEFT SIDE MENU */
+.styleone {width: 200px;font-family: 'Roboto', sans-serif;margin-bottom: 15px;}
+.styletwo {width: 335px;margin-bottom: 2px;}
+.styletwoO {width: 135px;margin-bottom: 2px;text-align: left;}
+.stylethree {width: 55px;margin-bottom: 25px;color: #c29b73;}
+.stylefour {width: 125px;margin-bottom: 15px;position: relative;text-align: left;}
+.stylefive {width: 311px;margin-bottom: 2px;text-align: left;}
+.stylefiveO {width: 290px;margin-bottom: 2px;text-align: left;}
+.stylesix {width: 40px;margin-bottom: 25px;color: #c29b73;}
+.styleseven {width: 66px;margin-bottom: 10px;text-align: left;width: 100px;}
+.styleeight {width: 320px;margin-bottom: 2px;text-align: left;}
+.styleeightO {width: 230px;margin-bottom: 2px;}
+.stylenine {width: 40px;margin-bottom: 10px;color: #c29b73;}
+
+
+
+/********* <!--CHEF KEN IN THE BUILDING BRAHHH!!!!--> **********/
+.meetOurChefSuperDiv {
+	position: relative;
+	bottom: 20px;
+	width: 100%;
+	height: 600px;
+	/* margin: 0 auto; */
+	text-align: center;
+	right: 150px;
+}
+
+.insideDivMeetOurChef {
+	width: 1100px;
+	height: 400px;
+	position: relative;
+	top: 280px;
+}
+
+.meetChefLeftSide {
+	display: inline-block;
+	width: 320px;
+	position: relative;
+	left: 20px;
+	right: 10px;
+	bottom: 70px;
+
+}
+
+.MeetourChefText {
+	margin-bottom: 20px;
+	position: relative;
+	/* right: 75px; */
+	text-align: left;
+}
+
+.MeetourChefText h2 {
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
+}
+
+.paragraphDiv {
+	width: 430px;
+	text-align: left;
+	font-family: 'PT Serif', serif;
+
+}
+.chefP {
+}
+
+.chefPSecond {
+	margin-top: 20px;
+}
+
+.chefPTwo {
+	margin-top: 10px;
+	width: 345px;
+}
+
+.chefPTwoSecond {}
+
+.signatureKen {
+	float: right;
+	position: relative;
+	top: 10px;
+	left: 100px;
+	height: 45px;
+	width: 100px;
+}
+
+.kenSignature {
+	background-image: url(../img/kenSignature.jpg);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.meetChefRightSide {
+	float: right;
+	display: inline-block;
+	position: relative;
+	top: 20px;
+	left: 95px;
+}
+
+
+.kenTruongText {
+	font-family: 'PT Serif', serif;
+}
+
+.kenTruongText h5 {
+	word-spacing: 3px;
+}
+
+.executiveChefText {
+	color: #c29b73;
+}
+
+/* BOOK A TABLE!!!!!!!!!!********
+ */
+
+
+.bookATableSuperDiv {
+	width: 100%;
+	height: 350px;
+}
+
+.bookATableRegularDiv {
+	margin: 0 auto;
+	height: 350px;
+	width: 650px;
+}
+
+.leftSideBook {
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	position: relative;
+
+}
+
+.formDivBook {
+	position: relative;
+
+}
+
+input {
+	width: 200px;
+	height: 22px;
+}
+
+.bookHOne {
+	color: white;
+	font-size: 10px;
+	margin-bottom: 15px;
+}
+
+.peopleOne {color: #c29b73;}
+.timeOne {color: #c29b73;}
+.dateOne {color: #c29b73;}
+
+.submitOne {
+	position: relative;
+	left: 105px;
+	bottom: 16px;
+	width: 100px;
+	height: 30px;
+	background-color: #c29b73;
+}
+
+.submitButton {
+	color: #000;
+	padding: 9px;
+	font-size: 10px;
+	text-align: center;
+}
+
+
+.rightSideBook {
+	color: white;
+	float: right;
+	display: inline-block;
+	position: relative;
+	right: 20px;
+	top: 45px;
+}
+
+
+
+/* SIGN UP FOR NEWS LETTER!!!! */
+.signUpNewsLetterMain {
+	width: 100%;
+	height: 70px;
+	position: relative;
+
+}
+
+.signUpNewsLetterText h6 {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	word-spacing: 1px;
+	border: 1px solid #fff;
+	padding: 10px 0px 5px 0px;
+	width: 180px;
+	height: 15px;
+	position: relative;
+	top: 20px;
+	font-size: 9px;
+}
+
+
+/************** SOCIAL MEDIA!!!!!************ */
+.socialMediaMainDiv {
+	width: 100%;
+	height: 50px;
+}
+
+.socialMediaBox {
+	position: relative;
+	text-align: center;
+	top: 80px;
+}
+
+.socialStyle {
+	color: #000;
+}
+
+.facebookDiv {display: inline-block;margin: 15px;}
+
+.twitterDiv {display: inline-block;margin: 15px;}
+
+.instagramDiv {display: inline-block;margin: 15px;}
+
+
+/* ALL RIGHTS RESERVED!!! */
+.rightsReservedDiv {
+	position: relative;
+	top: 400px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+
+
+
+
+
+/* BACKGROUNDS */
+
+
+
+.bg1 {
+	background-image: url(../img/bg1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+ 	height: 899px;
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	postion: relative;
+
+}
+
+
+.bg2 {
+	background-image: url(../img/bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+ 	height: 1062px;
+	background-repeat: no-repeat;
+	background-size:100% auto;
+
+}
+	
+
+.bg3 {
+	background-image: url(../img/bg3.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+ 	height: 1062px;
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	overflow: hidden;
+
+}
+
+
+.bg4 {
+	background-image: url(../img/bg4.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 492px;
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	overflow: visible;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 767p
